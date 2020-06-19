@@ -4,16 +4,16 @@ CUG-2020-软工选修课《大数据技术与应用》课内作业，包括HBase
 本研究基于GDELT新闻数据进行实验,如有需要,请自行下载相关数据。
 
 ## HBase
+* 启动路径：`ip`:16010/
 * 连接云服务器的HBase
 * 向云服务器的HBase中插入数据‘
 * 返回HBase中所有的Table名<br>
-启动路径：`ip`:16010/
 
 ## Storm
+* 启动路径：`ip`:8080/
 * 设置需要进行词频统计的句子
 * 进行package操作，将jar部署到云服务器上
 * 执行$ storm jar `你的jar包名字`.jar wordcount.WordCountTopologyMain<br>
-启动路径：`ip`:8080/
 
 ## Sklearn(随机森林回归模型)
 * 选择了GDELT数据中第30，31，32，33，34，35字段数据(其余字段有缺失)
