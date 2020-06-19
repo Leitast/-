@@ -16,7 +16,7 @@ CUG-2020-软工选修课《大数据技术与应用》课内作业，包括HBase
 * 执行$ storm jar `你的jar包名字`.jar wordcount.WordCountTopologyMain<br>
 
 ## Sklearn(随机森林回归模型)
-* 选择了GDELT数据中第30，31，32，33，34，35字段数据(其余字段有缺失)
+* 选择了GDELT数据中第30，31，32，33，34，35字段数据(其余字段数据有缺失且仅具有基本属性信息，故不考虑)
 * 通过潜在影响、新闻次数、数据源、文章数和语气等5个属性指标对事件类型进行预测
 * `GDELT_Analysis.py`是用来从GDELT的数据中提取字段的
 * `RFRegression.py`是随机森林回归模型的主要代码
